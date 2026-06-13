@@ -3,5 +3,5 @@ services:
     name: my-garden-helper-backend
     env: docker
     rootDir: backend
-    dockerfilePath: ./backend/Dockerfile
+    dockerfilePath: ./Dockerfile
     plan: free
