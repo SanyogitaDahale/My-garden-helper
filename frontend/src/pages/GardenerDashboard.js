@@ -1,7 +1,6 @@
 import { useEffect, useState, useCallback, useMemo } from "react";
 import { getGardenerAppointments, updateAppointmentStatus } from "../services/appointmentService";
 import Navbar from "../components/Navbar";
-import { useNavigate } from "react-router-dom";
 
 // ========== TOAST COMPONENT (with progress bar) ==========
 const Toast = ({ message, type, onClose }) => {
