@@ -1,8 +1,7 @@
 services:
   - type: web
     name: my-garden-helper-backend
-    runtime: java
+    env: docker
     rootDir: backend
-    buildCommand: ./mvnw clean package
-    startCommand: java -jar target/garden-helper-0.0.1-SNAPSHOT.jar
+    dockerfilePath: ./backend/Dockerfile
     plan: free
