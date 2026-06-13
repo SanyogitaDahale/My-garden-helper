@@ -30,7 +30,7 @@ function LoginPage() {
       localStorage.clear();
 
       const res = await axios.post(
-        "http://my-garden-helper-backend.onrender.com/auth/login",
+        "https://my-garden-helper-backend.onrender.com/auth/login",
         {
           email: form.email,
           password: form.password

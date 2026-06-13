@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://my-garden-helper-backend.onrender.com"
+  baseURL: "https://my-garden-helper-backend.onrender.com"
 });
 
 

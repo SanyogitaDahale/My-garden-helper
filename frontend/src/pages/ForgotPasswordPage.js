@@ -55,7 +55,7 @@ function ForgotPasswordPage() {
     try {
 
       await axios.put(
-        "http://my-garden-helper-backend.onrender.comocalhost:8081/auth/change-password",
+        "https://my-garden-helper-backend.onrender.comocalhost:8081/auth/change-password",
         {
           email,
           newPassword

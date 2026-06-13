@@ -18,7 +18,7 @@ function AppointmentDetails() {
     try {
 
       const response = await axios.get(
-        `http://my-garden-helper-backend.onrender.com/appointments/${id}`,
+        `https://my-garden-helper-backend.onrender.com/appointments/${id}`,
         {
           auth: {
             username: "user",

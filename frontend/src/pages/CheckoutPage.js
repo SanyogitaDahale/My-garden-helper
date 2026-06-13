@@ -57,7 +57,7 @@ function CheckoutPage() {
       const user = JSON.parse(localStorage.getItem("user"));
 
       const response = await axios.post(
-        "http://my-garden-helper-backend.onrender.com/appointments/book",
+        "https://my-garden-helper-backend.onrender.com/appointments/book",
         {
           serviceNames: cart.map((item) => item.name),
           appointmentDate: appointmentDateTime,

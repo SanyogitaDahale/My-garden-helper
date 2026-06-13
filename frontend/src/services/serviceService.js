@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://my-garden-helper-backend.onrender.com";
+const BASE_URL = "https://my-garden-helper-backend.onrender.com";
 
 export const getServices = () => {
   return axios.get(`${BASE_URL}/services`);
