@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL="http://localhost:8081";
+const BASE_URL="http://my-garden-helper-backend.onrender.com";
 
 export const submitFeedback=(data)=>{
 return axios.post(
