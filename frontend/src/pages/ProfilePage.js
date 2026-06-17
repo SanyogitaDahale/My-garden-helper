@@ -25,7 +25,7 @@ const ProfilePage = () => {
         email: "",
         phone: "",
         address: "",
-        specialty: "", // for gardener role
+        specialty: "", 
     });
     const [passwordData, setPasswordData] = useState({
         currentPassword: "",

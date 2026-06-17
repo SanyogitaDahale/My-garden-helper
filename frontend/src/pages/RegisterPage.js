@@ -22,7 +22,7 @@ function RegisterPage() {
   const handleRegister = async (e) => {
     e.preventDefault();
 
-    console.log("Sending data:", form); // 🔥 DEBUG
+    console.log("Sending data:", form); 
 
     // VALIDATION
     if (!form.name || !form.email || !form.password) {
@@ -74,7 +74,7 @@ function RegisterPage() {
       <div className="bg-white shadow-2xl rounded-2xl p-8 w-full max-w-md">
 
         <h2 className="text-3xl font-bold text-center text-green-800 mb-6">
-          Create Account 🌿
+          Create Account 
         </h2>
 
         {/* ERROR MESSAGE */}

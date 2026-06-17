@@ -95,11 +95,11 @@ function LoginPage() {
       <div className="text-center mb-6">
 
         <h1 className="text-2xl font-semibold text-green-700">
-          Hello! Welcome to
+          Hello! Welcome to <span classname="font-bold">PlantPal 🌿</span>
         </h1>
 
         <h2 className="text-4xl font-bold text-green-900">
-          My Garden Helper App
+          My Garden Helper 
         </h2>
 
         <p className="text-gray-600 mt-1">
